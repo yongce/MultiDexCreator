@@ -1,0 +1,7 @@
+# This file contains the classes rules for the secondary dex.
+# Only one rule should be specified per line.
+# Supported rule:
+# a) "jar" entry: For example, "jar: libs/guava-18.0.jar"
+# b) "class" pattern: For example, "class: android/support/v4/.*"
+jar: libs/android-lib.jar
+class: android/support/v4/.*
